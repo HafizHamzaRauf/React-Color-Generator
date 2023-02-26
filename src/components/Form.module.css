@@ -6,8 +6,15 @@
   display: flex;
   align-items: center;
   padding: 2rem 3rem;
+  margin: 0 1rem;
   gap: 3rem;
 }
+@media (max-width: 502px) {
+  .form {
+    flex-direction: column;
+  }
+}
+
 .input {
   padding: 1rem 2rem;
   font-size: 2rem;

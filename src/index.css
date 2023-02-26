@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 body {
+  overflow-x: hidden;
+  width: 100vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 502px) {
+  html {
+    font-size: 52.5%;
+  }
 }
